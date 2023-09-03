@@ -1,0 +1,46 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+/* CSS Variables */
+:root {
+  --header-height: 3rem;
+
+  /* Colors */
+  --primary-color: #da2535;
+  --primary-color-alt: #c42130;
+  --primary-color-send: #de3b49;
+  --title-color: #161212;
+  --text-color: #5b5757;
+  --text-color-light: #8f8a8a;
+  --background-color: #f5f5f5;
+  --container-color: #fff;
+
+  /* Font */
+  --body-font: "Roboto", sans-serif;
+  --big-font-size: 2rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+
+  /* Font Weight */
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /* Border */
+  --border-radius: 0.25rem;
+  --border: 1px solid #eaeaea;
+
+  /* Margins */
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+
+  /* z-index */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
