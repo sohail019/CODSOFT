@@ -11,8 +11,12 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="assets/css/styleNew.css" /> -->
   </head>
   <body>
     <!-- Scroll Top -->
@@ -21,11 +25,12 @@
     </a>
 
     <!-- Header -->
-    <header class="main-header" id="header">
-      <nav class="nav bd-container">
-        <a href="#" class="nav-logo">Sohal Web Hub</a>
-
-        <div class="navMenu" id="nav-menu">
+    <header class="header" id="header">
+      <div class="logo">
+        <img src="./assets/img/logo.png" alt="Logo" />
+      </div>
+      <nav class="nav body-container">
+        <div class="nav-menu" id="nav-menu">
           <ul class="nav-list">
             <li class="nav-item">
               <a href="#home" class="nav-link active">Home</a>
@@ -40,6 +45,9 @@
               <a href="#contact" class="nav-link active">Contact</a>
             </li>
             <li>
+              <li class="nav-item">
+                <a href="#" class="btn">Log in</a>
+              </li>
               <i class="bx bx-toggle-left change-theme"></i>
             </li>
           </ul>
@@ -57,7 +65,7 @@
     <main class="main">
       <!-- Home Section -->
       <section class="home" id="home">
-        <div class="home-container bd-container bd-grid">
+        <div class="home-container body-container body-grid">
           <div class="home-img">
             <img src="./assets/img/home-banner.png" alt="Home Banner" />
           </div>
@@ -78,5 +86,53 @@
 
       <!-- Home Section Closed -->
     </main>
+
+
+    <!--  Footer -->
+    <section class="footer" id="footer">
+      <div class="box-container">
+          <div class="box">
+              <h3>quick links</h3>
+              <a href="#"><i class="fas fa-chevron-right"></i>Home</a>
+              <a href="#"><i class="fas fa-chevron-right"></i>About</a>
+              <a href="#"><i class="fas fa-chevron-right"></i>Our Services</a>
+              <a href="#"><i class="fas fa-chevron-right"></i>Contact</a>
+           </div>
+           
+           
+           <div class="box">
+               <h3>our services</h3>
+               <a href="#"><i class="fas fa-chevron-right"></i>Website Development</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>Graphic Design</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>SEO</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>Application Development</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>Game Development</a>
+          </div>
+
+          <div class="box">
+              <h3>contact info</h3>
+              <a href="#"><i class="fas fa-phone"></i>+91 7666222498</a>
+              <a href="#"><i class="fas fa-phone"></i>+91 8108567689</a>
+              <a href="#"><i class="fas fa-envelope"></i>info@sohailwebhub.com</a>
+              <a href="#"><i class="fas fa-envelope"></i>contact@sohailwebhub.com</a>
+              <a href="#"><i class="fas fa-map-marker-alt"></i>Mumbai, india - 400612</a>
+          </div>
+
+          <div class="box">
+              <h3>follow us</h3>
+              <a href="https://linkedin.com/in/scookiehail"><i class="fab fa-linkedin"></i>linkedin</a>
+              <a href="https://github.com/sohail019"><i class="fab fa-github"></i>Github</a>
+              <a href="https://facebook.com/scookiehail"><i class="fab fa-facebook-f"></i>facebook</a>
+              <a href="https://twitter.com/scookiehail"><i class="fab fa-twitter"></i>twitter</a>
+              <a href="https://instagram.com/scookiehail"><i class="fab fa-instagram"></i>instagram</a>
+
+          </div>
+      </div>
+
+
+      <div class="copyright">Developed by
+          <a href="" target="_blank"><span>Sohail Shaikh</span> </a>| All rights reserved | For CODSOFT INTERNSHIP TASK 1
+      </div>
+  </section>
   </body>
 </html>
