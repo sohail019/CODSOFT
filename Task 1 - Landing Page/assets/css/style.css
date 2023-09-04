@@ -459,6 +459,17 @@ img {
     padding: 7rem 2rem 0;
   }
 
+  .home-title {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    font-weight: var(--font-bold);
+    margin-bottom: var(--mb-2);
+  }
+
+  .home-description {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    margin-bottom: var(--mb-3);
+  }
+
   .box-container {
     flex-direction: column;
   }
@@ -484,6 +495,18 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+  .home-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    row-gap: 1rem; /* Increase gap for smaller screens */
+  }
+
+  .home-img {
+    width: 80%; /* Reduce image size for smaller screens */
+    justify-self: center;
+  }
+
   .box h3 {
     font-size: 1.2rem;
   }
