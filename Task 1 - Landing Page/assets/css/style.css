@@ -458,6 +458,14 @@ img {
   .home-container {
     padding: 7rem 2rem 0;
   }
+
+  .box-container {
+    flex-direction: column;
+  }
+
+  .box {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 968px) {
@@ -472,5 +480,19 @@ img {
 
   .home-container {
     column-gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .box h3 {
+    font-size: 1.2rem;
+  }
+
+  .box a {
+    font-size: 0.9rem;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
   }
 }
