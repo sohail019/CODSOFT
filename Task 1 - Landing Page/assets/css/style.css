@@ -335,6 +335,43 @@ img {
   color: var(--primary-color);
 }
 
+/* Before Footer */
+.before-footer {
+  padding: 50px;
+  background-color: var(--primary-color);
+}
+
+.before-footer-title {
+  font-size: 45px;
+  line-height: 55px;
+  letter-spacing: -1.87579px;
+  color: #ffffff;
+  width: 400px;
+}
+
+.box-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.before-footer-link {
+  background-color: #fedc5a;
+  border: 1px solid #f0c931;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  padding: 12px 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.before-footer-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+}
+
 /* Footer */
 .footer {
   padding: 2rem 5%;
