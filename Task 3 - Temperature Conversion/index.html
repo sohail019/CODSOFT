@@ -10,17 +10,21 @@
   <body>
     <h1>Temperature Conversion</h1>
 
-    <div class="input-container"></div>
-    <input
-      type="text"
-      name=""
-      id="temperatureInput"
-      placeholder="Enter Temperature"
-    />
-    <select name="" id="unitSelect">
-      <option value="celcius">Celcius</option>
-      <option value="fahrenheit">Fahrenheit</option>
-      <option value="kelvin">Kelvin</option>
-    </select>
+    <div class="input-container">
+      <input
+        type="text"
+        name=""
+        id="temperatureInput"
+        placeholder="Enter Temperature"
+      />
+      <select name="" id="unitSelect">
+        <option value="celcius">Celcius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+      <button id="convertButton">Convert</button>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
   </body>
 </html>
