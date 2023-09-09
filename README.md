@@ -11,7 +11,7 @@ This repository showcases my work completed during the internship, divided into 
 - [Portfolio](https://github.com/sohail019/OIBSIP/tree/main/Task%202%20-%20Portfolio)
 
 ## Task 3: Calculator
-- [Calculator](https://github.com/sohail019/OIBSIP/tree/main/Task%203%20-%20Temperature%20Conversion)
+- [Temperature Conversion](https://github.com/sohail019/OIBSIP/tree/main/Task%203%20-%20Temperature%20Conversion)
 
 Feel free to explore each task by following the respective links above. If you have any questions or feedback, please don't hesitate to reach out!
 
