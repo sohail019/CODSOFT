@@ -1,186 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f0f0f0;
-}
-
-h1 {
-  color: #333;
-}
-
-.input-container {
-  background-color: #116466
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background: #e4e4d0;
 }
 
-#temperatureInput {
-  padding: 10px;
-  width: 200px;
-  font-size: 16px;
-  background-color: #fff;
-  border: 2px solid #3498db;
-  border-radius: 10px;
+/* necessary to give position: relative to parent. */
+input[type="text"] {
+  font: 15px/24px "Muli", sans-serif;
   color: #333;
-  transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
 }
-
-#temperatureInput::placeholder {
-  color: #888;
-}
-
-#temperatureInput:focus {
-  border-color: #e74c3c;
-  transform: scale(1.02);
+:focus {
   outline: none;
-  box-shadow: 0 0 10px rgba(231, 76, 60, 0.4);
 }
 
-#temperatureInput:hover {
-  background-color: #f0f0f0;
-  cursor: pointer;
-  transform: scale(1.01);
-}
-
-/* Unique animation when clicked */
-#temperatureInput:active {
-  transform: scale(0.98);
-  transition: transform 0.2s ease-in-out;
-}
-
-/* Add this to your existing styles.css or create a new CSS file */
-
-#unitSelect {
-  padding: 10px;
-  font-size: 16px;
-  background-color: #3498db;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
-  animation: selectScale 0.2s ease-in-out;
-}
-
-#unitSelect:hover {
-  background-color: #2980b9;
-}
-
-#unitSelect:focus {
-  background-color: #fff;
+.col-3 {
+  float: left;
+  width: 27.33%;
+  margin: 40px 3%;
+  position: relative;
+} /* necessary to give position: relative to parent. */
+input[type="text"] {
+  font: 15px/24px "Lato", Arial, sans-serif;
   color: #333;
-  transform: scale(1.02);
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 600px;
+  background: #aec3ae;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .row {
+  padding: 30px 20px;
+}
+
+.text-container {
+  font-size: 36px;
+  color: #ff5733;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-group label {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  background: transparent;
+  border: 1px solid#ff5733;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.form-control:focus {
+  outline: none;
+  background: #aec3ae;
+  color: black;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.custom-select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  background: transparent;
+  border: 1px solid#ff5733;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.custom-select:focus {
+  outline: none;
+  background: #aec3ae;
+  color: black;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border: 2px solid black;
+  transition: all 0.3s ease;
+}
+
+.custom-select option {
+  background: #aec3ae;
+  color: black;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border: 2px solid black;
+  transition: all 0.3s ease;
+}
+
+.custom-select option:hover {
+  background: #aec3ae;
+  color: black;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  background: #ff5733;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.btn:hover {
+  background: #ff5733;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+#resultContainer {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #333;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Unique animation for select focus */
-@keyframes selectScale {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.02);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* Add this to your existing styles.css or create a new CSS file */
-
-#convertButton {
-  padding: 15px 30px;
-  font-size: 18px;
-  background-color: #3498db;
+/* Styling for the footer */
+.footer {
+  background-color: #333;
   color: #fff;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s;
-}
-
-#convertButton:hover {
-  background-color: #2980b9;
-}
-
-#convertButton:focus {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  transform: scale(1.05);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Unique animation for button click */
-#convertButton:active {
-  background-color: #3498db;
-  transform: scale(0.95);
-  box-shadow: none;
-  color: #fff;
-  transition: none;
-}
-
-/* Unique button pulse animation */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* Apply pulse animation when hovering */
-#convertButton:hover {
-  animation: pulse 0.5s infinite;
-}
-
-select,
-button {
   padding: 10px;
-  margin-left: 10px;
+  font-size: 16px;
 }
 
-/* Add this to your existing styles.css or create a new CSS file */
-
-.reset-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
+/* Styling for the copyright text */
+.footer p {
+  margin: 0;
+  font-weight: bold;
 }
 
-#resetButton {
-  padding: 12px 20px;
-  font-size: 18px;
-  background-color: #e74c3c;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s;
-  margin-bottom: 10px;
-}
-
-#resetButton:hover {
-  background-color: #c0392b;
-}
-
-#resetButton:focus {
-  background-color: #fff;
-  color: #e74c3c;
-  transform: scale(1.05);
-  box-shadow: 0px 4px 6px rgba(231, 76, 60, 0.4);
-}
-
-/* Unique animation for button click */
-#resetButton:active {
-  background-color: #e74c3c;
-  transform: scale(0.95);
-  box-shadow: none;
-  color: #fff;
-  transition: none;
+@media (max-width: 992px) {
+  .col-3 {
+    width: 100%;
+    margin: 20px 0;
+  }
 }
