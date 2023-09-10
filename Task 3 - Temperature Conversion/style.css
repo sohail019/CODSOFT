@@ -165,7 +165,7 @@ input[type="text"] {
   transform: scale(0.98);
 }
 
-/* #resultContainer {
+#resultContainer {
   margin-top: 20px;
   font-size: 15px;
   color: #333;
@@ -174,7 +174,7 @@ input[type="text"] {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-} */
+}
 
 /* Styling for the footer */
 .footer {
