@@ -100,6 +100,42 @@ ul {
   color: var(--hover-link-color);
 }
 
+.primary-btn {
+  background: linear-gradient(
+    360deg,
+    var(--dark-color) 0%,
+    var(--primary-dark) 100%
+  );
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+  margin-bottom: 30px;
+  gap: 0.8rem;
+  font-size: 1rem;
+  transition: 0.3s linear;
+}
+
+.primary-btn:hover {
+  background: linear-gradient(360deg, #380079 0%, #392d69 100%);
+}
+
+.secondary-btn {
+  background: linear-gradient(
+    240deg,
+    var(--dark-color) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+
+.title {
+  text-shadow: 0 0 10px var(--primary-color);
+  font-size: 4.1rem;
+}
 /* Pending More */
 
 /* Nav Bar */
@@ -135,6 +171,7 @@ nav {
   font-family: var(--secondary-font);
   font-weight: 600;
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 .menu-icon {
