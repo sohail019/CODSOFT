@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --primary-color: #132a13;
+  /* --secondary-color: #31572c; */
+  --dark-color: #4f772d;
+  --extra-color: #ecf39e;
+  --navbar-color: #0a0017;
+  --primary-text-color: #000;
+  --secondary-text-color: #cfd8dc;
+  --hover-link-color: #90a955;
+
+  --title-font: "Roboto", sans-serif;
+  --secondary-font: "Poppins", sans-serif;
+
+  --padding-inline: 0 20px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--secondary-font);
+  background-color: #333;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+h2 {
+  font-family: var(--title-font);
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+h3 {
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+h4 {
+  font-family: var(--title-font);
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+p {
+  font-family: var(--title-font);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--secondary-font);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Main Utilities Classes Styling */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 30px;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.hover-links {
+  color: var(--secondary-text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-links:hover {
+  color: var(--hover-link-color);
+}
+
+/* Pending More */
+
+/* Nav Bar */
+
+nav {
+  width: 100vw;
+  background: linear-gradient(90deg, var(--dark-color), var(--primary-color));
+  /* background: white; */
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  box-shadow: 0 2px 6px #00000081;
+}
+
+.nav-container {
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav-img {
+  flex-basis: 250px;
+}
+
+.nav-links ul {
+  justify-content: flex-end;
+  flex-basis: 750px;
+  gap: 50px;
+}
+
+.nav-links ul li a {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.active-link {
+  color: black;
+}
