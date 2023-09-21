@@ -1,6 +1,79 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .nav-img {
   max-height: 65px;
   min-height: 65px;
   max-width: 71px;
   min-width: 71px;
+}
+
+/* Card Section */
+
+.card {
+  margin: 50px;
+}
+
+.menu-price-bar {
+  display: flex;
+  align-items: center;
+  margin: 7px;
+}
+
+.menu-original-price {
+  font-size: 20px;
+  color: grey;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.menu-price {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.menu-percentage-off {
+  font-size: 20px;
+  color: #e50c1c;
+  background: rgba(235, 153, 110, 0.22);
+  border-radius: 3px;
+  padding: 0 7px;
+}
+
+/* Add to Cart */
+.add-to-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-to-cart-btn {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 10px 0;
+  font-size: 16px;
+  align-items: center;
+  min-height: 30px;
+  min-width: 30px;
+  background: #ffbc0b;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background: #e50c1c;
+  color: #fff;
+}
+
+.add-to-cart-btn-full {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin: 0 10px;
 }
