@@ -327,3 +327,74 @@ form {
   font-weight: 700;
   margin: 0 10px;
 }
+
+/* Download The App Section */
+
+.download-app {
+  width: 100%;
+  min-height: 285px;
+  padding-left: 20%;
+  padding-top: 42px;
+  padding-bottom: 65px;
+  background-color: #ffbc0b;
+  display: flex;
+  position: relative;
+}
+
+.app-content {
+  display: flex;
+  width: 70%;
+}
+
+.qr-code {
+  display: block;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.qr-code-title {
+  margin: 10px 0 0 !important;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 173px;
+}
+
+.app-content-details {
+  margin-left: 70px;
+  padding-top: 5px;
+}
+
+.app-details-title {
+  margin: 0 0 10px !important;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #e50c1c;
+  text-transform: uppercase;
+}
+
+.app-details-paragraph {
+  margin: 0 !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  line-height: 2rem;
+}
+
+.app-btn {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 43px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 30px;
+}
+
+.app-btn:hover {
+  background-color: #e50c1c;
+  border: none;
+}
